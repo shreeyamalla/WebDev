@@ -1,0 +1,43 @@
+svg{
+    fill: blue;
+}
+.social_media{
+    list-style: none;   /*unordered list ko agadi ko thopla hatauxa */
+    display: flex;       /*horizontally eutai line ma tassera aauxa*/
+    gap: 20px;           /*literal gap dinxa elements bich*/
+
+}
+.icon-insta{
+    fill: purple;
+}
+.icon-linkedin{
+    fill: black;
+}
+.fb:hover{
+    opacity: 0.5;         /*opacity --> 0-1 ko range huncha*/
+}
+.fb:hover svg{
+    fill: red;          /*hover garda color change huna*/
+}
+.instagram:hover{
+    opacity: 0.5;
+}
+.instagram:hover svg{
+    fill: black;
+}
+.breathe-section{
+    height: 700px;
+    width: 100%;
+    background-image: url('./image/free-nature-images.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;   /* aile(x,y) left-top-bottom-right-center (keep the actual image centered according to the height and width)*/
+}
+.breathe-section2{
+    background-attachment: fixed;       /*Parallax effect --> background is fixed, tes mathi ko elements is only changes*/
+}
+.spacer{
+    background-color:cornflowerblue;
+    height: 700px;
+    width: 100%;
+}
