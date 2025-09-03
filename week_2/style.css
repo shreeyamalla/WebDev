@@ -1,0 +1,28 @@
+p{
+    font-size: 30px;
+    /* text-align: center; */
+    font-style: italic;
+    font-weight: bold;
+    text-decoration:underline;
+    font-family:'Times new roman', cursive;
+    line-height:1;
+    letter-spacing: 0.01em;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    margin-bottom: 10px;
+    background-color: burlywood;
+    border: 2px solid #c12ec1;
+}
+
+
+/*for class*/
+.para{
+    color: #c12ec1;
+}
+
+/*for id*/
+#two{
+    color: blue;
+}
